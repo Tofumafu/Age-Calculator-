@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="\css\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="introduction">
+        <div class="title">
+            <i class="fa-regular fa-calendar-days"></i>
+            <h1>Age Calculator</h1>
+        </div>
+        <p>Discover how old you are in seconds, minutes, or years with this simple and interactive Age Calculator! Enter your birthdate, and our tool will calculate your exact age down to the day.</p>
+    </div>
+
+    <div class="container">
+        <div class="user-container">
+            <div class="input-container">
+                <h2>Calculate Your Age Now!</h2>
+                <div class="input-box">
+                    <label class="dates-headings">Day you were born:</label>
+                    <input type="text" id="day" placeholder="DD">
+                    <input type="text" id="month" placeholder="MM">
+                    <input type="text" id="year" placeholder="YYYY">
+                </div>
+                <br>
+                <div class="input-box">
+                    <label class="dates-headings">Day today:</label>
+                    <input type="text" id="day" placeholder="DD">
+                    <input type="text" id="month" placeholder="MM">
+                    <input type="text" id="year" placeholder="YYYY">
+                </div>
+            </div>
+            
+            <div class="result-container">
+                <h2>Result</h2>
+                <div class="input-box">
+                    <label class="dates-headings">Years:</label>
+                    <input type="text" id="year" placeholder="YYYY">
+                </div>
+                <br>
+                <div class="input-box">
+                    <label class="dates-headings">Months:</label>
+                    <input type="text" id="month" placeholder="MM">
+                </div>
+                <br>
+                <div class="input-box">
+                    <label class="dates-headings">Days:</label>
+                    <input type="text" id="day" placeholder="DD">
+                </div>
+            </div>
+        </div>
+        
+        <div class="buttons-container">
+            <button class="btn" id="calculate">Calculate Today's Age</button>
+            <button class="btn" id="reset">Reset</button>
+        </div>
+    </div>
+    <script src="js\script.js"></script>
+</body>
+</html>
