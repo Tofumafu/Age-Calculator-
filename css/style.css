@@ -11,6 +11,7 @@ h1{
 h2{
      color: #333333;
      font-size: 1.2rem;
+     margin-bottom: 25px;
 }
 i{
     font-size: 2rem;
@@ -25,7 +26,7 @@ label{
     align-items: center;
 }
 .introduction{
-    margin: 20px;
+    margin: 30px;
     color: #fff;
     padding: 20px;
 }
@@ -36,7 +37,7 @@ label{
 }
 .container{
     background-color: #D4E9FE;
-    padding: 5cap;    
+    padding: 5rem;   
 }
 .user-container{
     display: flex;
@@ -44,41 +45,54 @@ label{
 }
 .input-container, .result-container{
     background-color: #D4E9FE;
-    box-shadow: 0 4px 2px -2px gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     padding: 40px;
     border-radius: 10px;
     margin-right: 50px;
 }
 .result-container{
     width: 300px;
+    margin-left: 12em;
 }
 .input-box{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 input{
     padding: 10px;
-    margin: 10px 0px;
     border: none;
     border-bottom: #94D8FF 2px solid;
     width: 5em;
-    margin: 20px 5px;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .btn{
     padding: 20px;
     border-radius: 50px;
     width: 15em;
     border: none;
-    box-shadow: 0 4px 2px -2px gray;
-    margin: 20px 10px;
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
+    margin-top: 40px;
+    margin-right: 10px;
     cursor: pointer;
+}
+.dates-headings{
+    width: 80px;
 }
 #calculate{
     background-color: #2C83EC;
     color: #fff;
 }
+#calculate:hover{
+    background-color: #2369BD;
+    font-weight: bold;
+}
 #reset{
     background-color: #E63946;
     color: #fff;
+}
+#reset:hover{
+    background-color: #B02D38;
+    font-weight: bold;
 }
