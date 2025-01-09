@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
 body{
     margin: 0 auto;
     background-color: #2C83EC;
@@ -43,28 +42,35 @@ label{
     display: flex;
     margin-top: -6.5rem;
 }
-.input-container, .result-container{
+.input-container{
     background-color: #D4E9FE;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     padding: 40px;
     border-radius: 10px;
     margin-right: 50px;
+    height: 15rem;
 }
 .result-container{
-    width: 300px;
     margin-left: 12em;
+    background-color: #D4E9FE;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 10px;
+    margin-right: 50px;
+    height: 15rem;
 }
 .input-box{
+    margin-top: 2.5em;
+}
+.result-box{
     display: flex;
     align-items: center;
-    margin-top: 10px;
 }
 input, .result{
-    padding: 10px;
+    padding: 9.5px;
     border: none;
     border-bottom: #94D8FF 2px solid;
-    width: 10em;
-    justify-content: space-between;
+    width: 9.5em;
     margin-right: 10px;
     margin-left: 10px;
     background-color: white;
@@ -83,9 +89,6 @@ input, .result{
     margin-top: 40px;
     margin-right: 10px;
     cursor: pointer;
-}
-.dates-headings{
-    width: 80px;
 }
 #calculate{
     background-color: #2C83EC;
